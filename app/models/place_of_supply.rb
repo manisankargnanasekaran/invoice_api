@@ -1,0 +1,2 @@
+class PlaceOfSupply < ApplicationRecord
+end

@@ -1,0 +1,73 @@
+Rails.application.routes.draw do
+
+
+ 
+  # resources :customer_accounts
+  # resources :estimate_items
+  # resources :estimates
+  # resources :gst_treatments
+  # resources :customer_contact_people
+  # resources :customer_companies
+  # resources :social_networks
+  # resources :items
+  # resources :units
+  # resources :taxes
+  # resources :user_login_details
+  # resources :organization_users
+  # resources :organization_accounts
+  # resources :organization_roles
+  # resources :organizations
+  # resources :business_categories
+  # resources :contacts
+  # resources :addresses
+  # resources :tenants
+   namespace :api, defaults: {format: 'json'} do
+    namespace :v1 do
+
+      post 'auth/login' => 'sessions#login'
+      get 'auth/logout' => 'sessions#logout'
+      get 'payment_invoices' => 'customer_payments#payment_invoice'
+      post 'payment_invoice_create' => 'customer_payments#payment_invoice_create'
+      get 'get_customer_companies' => 'customer_companies#get_customer_company'
+      get "place_of_supplies" => "invoices#place_of_supply"
+<<<<<<< HEAD
+      
+      resources :tax_types
+      resources :customer_payments
+=======
+>>>>>>> Manisankar
+      
+      
+      #get 'get_customer_companies' => 'customer_companies#get_customer_company'
+      patch 'update_billing_address' => 'customer_companies#update_billing_address'
+      patch 'update_shipping_address' => 'customer_companies#update_shipping_address'
+      
+      resources :tax_types
+      resources :customer_payments
+      resources :invoices
+      resources :orders
+      resources :customer_accounts
+      resources :estimate_items
+      resources :estimates
+      resources :gst_treatments
+      resources :customer_contact_people
+      resources :customer_companies
+      resources :social_networks
+      resources :tax_items
+      resources :items
+      resources :taxes
+      resources :user_login_details
+      resources :organization_users
+      resources :organization_accounts
+      resources :organization_roles
+      resources :organizations
+      resources :business_categories
+      resources :contacts
+      resources :addresses
+      resources :tenants
+      resources :units  
+      end
+    end
+
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end

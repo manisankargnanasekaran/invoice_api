@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  gender: false
+  department: MyString
+  deleted_at: 2018-01-29 18:06:56
+  is_primary: false
+  address: one
+  organization_role: one
+  organization: one
+  contact: one
+
+two:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  gender: false
+  department: MyString
+  deleted_at: 2018-01-29 18:06:56
+  is_primary: false
+  address: two
+  organization_role: two
+  organization: two
+  contact: two

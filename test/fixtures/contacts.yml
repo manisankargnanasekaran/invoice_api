@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  mobile: MyString
+  tax: MyString
+  is_primary: false
+
+two:
+  email: MyString
+  mobile: MyString
+  tax: MyString
+  is_primary: false

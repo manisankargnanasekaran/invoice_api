@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_company: one
+  tin: MyString
+  gst_no: MyString
+  tan: MyString
+  pan: MyString
+  gst_treatment: one
+  currency: 1.5
+  payment_terms: MyString
+  taxable: false
+  tax_exempt_reason: MyString
+  place_of_supply: MyString
+  shipping_address: 1
+  billing_address: 1
+
+two:
+  customer_company: two
+  tin: MyString
+  gst_no: MyString
+  tan: MyString
+  pan: MyString
+  gst_treatment: two
+  currency: 1.5
+  payment_terms: MyString
+  taxable: false
+  tax_exempt_reason: MyString
+  place_of_supply: MyString
+  shipping_address: 1
+  billing_address: 1

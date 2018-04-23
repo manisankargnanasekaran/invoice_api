@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  facebook: MyString
+  google_plus: MyString
+  skype: MyString
+  twitter: MyString
+  linkedin: MyString
+
+two:
+  facebook: MyString
+  google_plus: MyString
+  skype: MyString
+  twitter: MyString
+  linkedin: MyString

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  department: MyString
+  is_primary: false
+  customer_company: one
+  organization: one
+  contact: one
+  address: one
+
+two:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  department: MyString
+  is_primary: false
+  customer_company: two
+  organization: two
+  contact: two
+  address: two

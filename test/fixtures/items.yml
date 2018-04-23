@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  product_type: false
+  cost_of_item: 1.5
+  code: MyString
+  deleted_at: 2018-01-29 18:07:01
+  unit: one
+  organization: one
+
+two:
+  name: MyString
+  description: MyString
+  product_type: false
+  cost_of_item: 1.5
+  code: MyString
+  deleted_at: 2018-01-29 18:07:01
+  unit: two
+  organization: two

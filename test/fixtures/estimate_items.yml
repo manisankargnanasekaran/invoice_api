@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cost_of_item: 1.5
+  quantity: 1
+  remarks: MyString
+  item: one
+  estimate: one
+
+two:
+  cost_of_item: 1.5
+  quantity: 1
+  remarks: MyString
+  item: two
+  estimate: two

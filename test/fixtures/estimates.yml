@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  estimete_number: MyString
+  date_of_estimete: 2018-01-29 18:07:08
+  expiry_date: 2018-01-29 18:07:08
+  name_of_estimate: MyString
+  message: MyString
+  discount_name: MyString
+  discount_percentage: 1.5
+  terms_and_condition: MyString
+  remarks: MyString
+  estimate_status: 1
+  customer_company: one
+  organization: one
+  organization_user: one
+  customer_contact_persion: one
+
+two:
+  estimete_number: MyString
+  date_of_estimete: 2018-01-29 18:07:08
+  expiry_date: 2018-01-29 18:07:08
+  name_of_estimate: MyString
+  message: MyString
+  discount_name: MyString
+  discount_percentage: 1.5
+  terms_and_condition: MyString
+  remarks: MyString
+  estimate_status: 1
+  customer_company: two
+  organization: two
+  organization_user: two
+  customer_contact_persion: two

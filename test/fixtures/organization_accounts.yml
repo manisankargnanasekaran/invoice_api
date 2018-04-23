@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fiscal_year_start_month: MyString
+  currency_code: MyString
+  currency_symbol: MyString
+  organization: one
+
+two:
+  fiscal_year_start_month: MyString
+  currency_code: MyString
+  currency_symbol: MyString
+  organization: two

@@ -1,0 +1,26 @@
+default: &default
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: tb
+  password: tb
+  host: localhost
+  database: Invoicing_development
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: tb
+  password: tb
+  host: localhost
+  database: Invoicing_test
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: annapoorani
+  password: annapoorani
+  host: localhost
+  database: Invoicing_production
